@@ -53,9 +53,9 @@ def play
 	end
 
 	if status==1
-		puts "You Lose!!!"
+		puts "You Lose!"
 	else
-		puts "You Win!!!"
+		puts "You Win!"
 	end
 end
 
