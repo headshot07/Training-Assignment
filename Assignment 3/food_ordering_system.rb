@@ -27,8 +27,8 @@ class FoodOrderingSystem
 			if @@menu_count[item]>0
 				print "Yes The Item Is Available!"
 				puts ''
-			else
-				print "Sorry, The Item Is Not Available!"
+			else 
+				print "Sorry, The Item Is Not Available!!!!!!!"
 				puts ''
 			end
 		else
