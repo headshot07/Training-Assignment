@@ -1,4 +1,4 @@
-class FoodOrderingSystem #Use CamelCase
+class FoodOrderingSystem
 	@@menu={"Paneer"=>200,"Dal"=>100,"Egg Roll"=>50,"Veg Roll"=>30,"Momos"=>20}
 	@@menu_count={"Paneer"=>5,"Dal"=>5,"Egg Roll"=>5,"Veg Roll"=>5,"Momos"=>5}
 	attr_accessor :status
