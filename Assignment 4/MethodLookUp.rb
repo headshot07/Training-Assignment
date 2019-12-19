@@ -7,7 +7,7 @@ end
 
 module IncludedModule
 	def method
-		print "In Included Module"
+		print "In Included Module!!!"
 		puts ''
 	end
 end
