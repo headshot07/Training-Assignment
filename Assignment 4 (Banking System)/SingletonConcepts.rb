@@ -1,17 +1,17 @@
 #_Head.Shot.07_
 class Maths
-	def sum
-		print "I Am Sum!"
-		puts''
-	end
+  def sum
+    print "I Am Sum!"
+    puts''
+  end
 end
 
 M1=Maths.new #Here, Maths Is Working As An Object As It Is Calling 'new' Method Defined In Maths Class Inherited Form "Class" Class.
 M2=Maths.new
 
 def M1.multiplication  #Singleton Method
-	print "I Am In Multiplication!"
-	puts ''
+  print "I Am In Multiplication!"
+  puts ''
 end
 
 M1.sum

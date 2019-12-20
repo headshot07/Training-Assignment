@@ -3,13 +3,13 @@ grade=gets.to_i
 
 def grade_check(grade)
 if grade<=5 && grade>=1
-	print "Elementary"
+  print "Elementary"
 elsif grade<=8 && grade>=5
-	print "Middle School"
+  print "Middle School"
 elsif grade<=12 && grade>=9
-	print "High School"
+  print "High School"
 else 
-	print "College"
+  print "College"
 end
 end
 
